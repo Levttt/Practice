@@ -16,6 +16,10 @@ $host = 'localhost';
 $dsn = 'mysql:host=' . $host . ';dbname =' . $db;
 $pdo = new PDO($dsn, $user, $password);
 
+/*
+ * Для своего удобства сначала дропаю таблицу, потом создаю её, ибо код выполнялся множество раз, пока писал.
+ */
+
 $sql = 'DROP TABLE IF EXISTS users.task_nine;
         CREATE TABLE users.task_nine
 (
@@ -27,6 +31,15 @@ $sql = 'DROP TABLE IF EXISTS users.task_nine;
 $query = $pdo->prepare($sql);
 $query->execute();
 
+/*
+ * Реализовываю метод POST, добавив в html разметку лишь название для поля input, чтоб указать его в $_POST.
+ */
+
+$text = $_POST['text'];
+
+$sql = "INSERT INTO users.task_nine(text) VALUES (:text)";
+$query = $pdo->prepare($sql);
+$query->execute(['text'=>$text]);
 
 ?>
 <!DOCTYPE html>
@@ -68,7 +81,7 @@ $query->execute();
                                 <div class="form-group">
                                     <form method="POST" action="">
                                         <label class="form-label" for="simpleinput">Text</label>
-                                        <input type="text" id="simpleinput" class="form-control">
+                                        <input name="text" type="text" id="simpleinput" class="form-control">
                                         <button class="btn btn-success mt-3">Submit</button>
                                     </form>
                                 </div>
