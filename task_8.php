@@ -4,8 +4,6 @@
  * Креды для подключения к БД.
  */
 
-
-
 $user = 'root';
 $password = 'root';
 $db = 'users';
@@ -23,25 +21,14 @@ $dbArrayUsers = [
                 ];
 
 /*
- * Массив с данными о ссылках.
- */
-
-$dbArrayLinks = [
-                    ['link_href_id'=>5, 'link_name'=>'Редактировать'],
-                    ['link_href_id'=>6, 'link_name'=>'Изменить'],
-                    ['link_href_id'=>7, 'link_name'=>'Удалить']
-                ];
-
-/*
- * Подключаюсь к БД с помощью кредов, используя PDO.
+ * Подключаюсь к БД с помощью кредов, используя PDO
  */
 
 $dsn = 'mysql:host=' . $host . ';dbname =' . $db;
 $pdo = new PDO($dsn, $user, $password);
 
 /*
- * Создал 2 таблицы, ибо данные о пользователе и данные о ссылках должны храниться в разных таблицах.
- * Для своего удобства сначала дропаю таблицы, потом создаю их, ибо код выполнялся множество раз, пока писал.
+ * Создаю таблицу для своего удобства, сначала дропаю таблицу, потом создаю, ибо код выполнялся множество раз, пока писал.
  */
 
 $sql = 'DROP TABLE IF EXISTS users.task_seven;
@@ -52,17 +39,7 @@ $sql = 'DROP TABLE IF EXISTS users.task_seven;
     first_name varchar(25)  null,
     last_name varchar(25)  null,
     username varchar(25) null
-);
-
-DROP TABLE IF EXISTS users.task_seven_links;
-        CREATE TABLE users.task_seven_links
-(
-    id int unsigned auto_increment
-        primary key,
-    link_href_id text null,
-    link_name text null
-)
-';
+)';
 
 $query = $pdo->prepare($sql);
 $query->execute();
@@ -78,16 +55,6 @@ foreach ($dbArrayUsers as $val){
     $query->execute(['first_name'=>$val['first_name'], 'last_name'=>$val['last_name'], 'username'=>$val['username']]);
 }
 
-/*
- * Заполняю таблицу БД со ссылками, используя массив на строке 29.
- */
-
-foreach ($dbArrayLinks as $val){
-    $sql = 'INSERT INTO users.task_seven_links(link_href_id,  link_name)
-            VALUES                           (:link_href_id, :link_name)';
-    $query = $pdo->prepare($sql);
-    $query->execute(['link_href_id'=>$val['link_href_id'], 'link_name'=>$val['link_name']]);
-}
 ?>
 
 <!DOCTYPE html>
@@ -144,14 +111,7 @@ foreach ($dbArrayLinks as $val){
                                             $tasks = $query->fetchAll(PDO::FETCH_ASSOC);
 
                                             /*
-                                             * Здесь хотелось бы понять: как можно вставить данные из второй таблицы(users.task_seven_links),
-                                             * в циклы foreach или while, которые уже выводят данные из первой таблицы(users.task_seven)
-                                             * так, чтоб всё корректно отображалось?
-                                             * Если нельзя использовать LEFT JOIN или UNION ALL, тк. у этих таблиц нет ничего общего
-                                             * и при слиянии этих таблиц, используя UNION - данные на выходе будут отображаться некорректно.
-                                             *
-                                             * $querytest = $pdo->query('SELECT * FROM users.task_seven_links');
-                                             * $tasktest = $querytest->fetchAll(PDO::FETCH_ASSOC);
+                                             * Вывожу данные из БД.
                                              */
 
                                                 foreach ($tasks as $row){
@@ -161,7 +121,7 @@ foreach ($dbArrayLinks as $val){
                                             <td>' . $row['last_name'] . '</td>
                                             <td>' . $row['username'] . '</td>
                                             <td>
-                                                <a href="show.php?id=' . $row['user_id'] . '" class="btn btn-info">Редактировать</a>
+                                                <a href="show.php?id=' . $row['user_id'] . '" class="btn btn-info">Просмотреть</a>
                                                 <a href="edit.php?id=' . $row['user_id'] . '" class="btn btn-warning">Изменить</a>
                                                 <a href="delete.php?id=' . $row['user_id'] . '" class="btn btn-danger">Удалить</a>
                                             </td>
