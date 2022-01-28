@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54679f0c-f7f6-49ce-976e-e27693ae97de" name="Changes" comment="Exercise 9">
+    <list default="true" id="54679f0c-f7f6-49ce-976e-e27693ae97de" name="Changes" comment="Exercise 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_10.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_7.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_8.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webfonts/save10.php" beforeDir="false" afterPath="$PROJECT_DIR$/save10.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +32,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/task_1.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="23gmHfmbzlnbL1nKTSAvw3OTRyS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +63,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpsnServer\OpenServer\domains\exercises" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +81,10 @@
       <workItem from="1642245022533" duration="13708000" />
       <workItem from="1642427954717" duration="7630000" />
       <workItem from="1642576830673" duration="22541000" />
-      <workItem from="1642772853197" duration="497000" />
+      <workItem from="1642772853197" duration="1330000" />
+      <workItem from="1642883210402" duration="3416000" />
+      <workItem from="1643307954910" duration="2230000" />
+      <workItem from="1643388692489" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise 1">
       <created>1642167350682</created>
@@ -165,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642599465003</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Exercise 8">
+      <created>1642773403174</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642773403174</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Exercise 10">
+      <created>1642884177969</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642884177969</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,8 +237,9 @@
     <MESSAGE value="Exercise 4" />
     <MESSAGE value="Exercise 5" />
     <MESSAGE value="Exercise 6" />
-    <MESSAGE value="Exercise 8" />
     <MESSAGE value="Exercise 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 9" />
+    <MESSAGE value="Exercise 8" />
+    <MESSAGE value="Exercise 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 10" />
   </component>
 </project>
