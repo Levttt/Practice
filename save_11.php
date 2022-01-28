@@ -14,7 +14,7 @@ $check = $query->fetch(PDO::FETCH_ASSOC);
 
 if(!empty($check)){
     $_SESSION['record'] = 1;
-    header('Location: /task_11_handler');
+    header('Location: /task_11_handler.php');
     exit;
 }
 else {
@@ -22,6 +22,6 @@ else {
     $query = $pdo->prepare($sql);
     $query->execute(['email'=>$email, 'password'=>$hash]);
     $_SESSION['record'] = 2;
-    header("Location: /task_11_handler");
+    header('Location: /task_11_handler.php');
     exit;
 }
