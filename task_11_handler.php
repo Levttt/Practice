@@ -41,8 +41,7 @@ session_start();
                                     <?php
                                         if($_SESSION['record'] == 1){
                                             echo '<div class="alert alert-danger fade show" role="alert">Этот эл адрес уже занят другим пользователем</div>';
-                                        }
-                                        elseif ($_SESSION['record'] == 2){
+                                        } elseif ($_SESSION['record'] == 2){
                                             echo '<div class="alert alert-success fade show" role="alert">Ваши данные успешно сохранены</div>';
                                         }
                                     session_unset();
