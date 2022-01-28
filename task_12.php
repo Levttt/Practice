@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+$_SESSION['text'] = $_POST['text'];
 ?>
 
 <!DOCTYPE html>
@@ -38,13 +40,15 @@ session_start();
                         <div class="panel-content">
                             <div class="panel-content">
                                 <div class="form-group">
-                                    <div class="alert alert-info fade show" role="alert">
-                                        Ваше сообщение выводится тут
-                                    </div>
-                                    <form action="">
+                                    <?php
+                                        if(!empty($_SESSION['text'])){
+                                            echo '<div class="alert alert-info fade show" role="alert">'.$_SESSION['text'].'</div>';
+                                        }
+                                    ?>
+                                    <form action="" method="post">
                                         <div class="form-group">
                                         	<label class="form-label" for="simpleinput">Text</label>
-                                            <input type="text" id="simpleinput" class="form-control">
+                                            <input name="text" type="text" id="simpleinput" class="form-control">
                                         </div>
                                         <button class="btn btn-success mt-3">Submit</button>
                                     </form>
