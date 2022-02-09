@@ -6,8 +6,6 @@ $query = $pdo->prepare($sql);
 $query->execute();
 $result = $query->fetchAll();
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,11 +72,9 @@ $result = $query->fetchAll();
                             <div class="panel-content">
                                 <div class="panel-content image-gallery">
                                     <div class="row">
-                                        <?php
-                                        foreach ($result as $img){
+                                        <?php foreach ($result as $img){
                                             echo '<div class="col-md-3 image"><img src="img/demo/gallery/'. $img['img_name'] .'"></div>';
-                                        }
-                                        ?>
+                                        } ?>
                                     </div>
                                 </div>
                             </div>
