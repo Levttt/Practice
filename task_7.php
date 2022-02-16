@@ -1,5 +1,16 @@
 <?php
 
+
+
+
+$task1 = ['username'=>'Lev'];
+$task2 = ['linkId'=>'5'];
+
+
+
+
+
+
 /*
  * Креды для подключения к БД.
  */
@@ -53,8 +64,7 @@ $sql = 'DROP TABLE IF EXISTS users.users;
     title text null,
 	is_banned tinyint null
 )
-ENGINE = MyISAM COLLATE = utf8_general_ci;
-';
+ENGINE = MyISAM COLLATE = utf8_general_ci;';
 
 $query = $pdo->prepare($sql);
 $query->execute();

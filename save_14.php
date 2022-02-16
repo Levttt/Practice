@@ -13,7 +13,7 @@ $check = $query->fetch(PDO::FETCH_ASSOC);
 
 if(password_verify($password,$check['hash'])) {
     $_SESSION['loginStatus'] = 2; //Статус когда пользователь ввёл верные данные и вошёл.
-    $_SESSION['login'] = $check['email']; //Записываю данные пользователя в сессию, т.е. его почту.
+    $_SESSION['login'] = $check['user_name']; //Записываю имя пользователя в сессию.
     header('Location: /task_14.php');
     exit;
 } else {

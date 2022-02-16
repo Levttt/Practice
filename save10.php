@@ -11,11 +11,11 @@ $query->execute(['text'=>$text]);
 $task = $query->fetch(PDO::FETCH_ASSOC);
 
 if (!empty($task)) {
-        $_SESSION['danger'] = TRUE;
+        $_SESSION['record'] = FALSE;
         header("Location: /task_10.php");
         exit;
 }
-elseif (empty($task)){
+else {
     $sql = 'INSERT INTO users.task_ten (text) VALUES (:text)';
     $query = $pdo->prepare($sql);
     $query->execute(['text'=>$text]);

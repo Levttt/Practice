@@ -17,7 +17,7 @@ if(!empty($check)){
     header('Location: /task_11_handler.php');
     exit;
 } else {
-    $sql = 'INSERT INTO users.users (email, password) VALUES (:email, :password)';
+    $sql = 'INSERT INTO users.users (email, hash) VALUES (:email, :password)';
     $query = $pdo->prepare($sql);
     $query->execute(['email'=>$email, 'password'=>$hash]);
     $_SESSION['record'] = 2;

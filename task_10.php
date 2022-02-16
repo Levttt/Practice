@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +42,7 @@ session_start();
                                 <div class="form-group">
 
                                     <?php
-                                        if($_SESSION['danger'] == TRUE){
+                                        if($_SESSION['record'] == TRUE){
                                             echo '<div class="alert alert-danger fade show" role="alert">Введенная запись уже присутствует';
                                         }
                                         elseif ($_SESSION['record'] == TRUE){

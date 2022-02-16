@@ -1,12 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54679f0c-f7f6-49ce-976e-e27693ae97de" name="Changes" comment="Exercise 13">
-      <change afterPath="$PROJECT_DIR$/save13.php" afterDir="false" />
+    <list default="true" id="54679f0c-f7f6-49ce-976e-e27693ae97de" name="Changes" comment="Exercise 15_1">
+      <change afterPath="$PROJECT_DIR$/save_15_2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4f621a9-cb58-4118-adfd-8ced89a556af/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete_15.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete_15.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo/gallery/thumb/9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/save10.php" beforeDir="false" afterPath="$PROJECT_DIR$/save10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_11.php" beforeDir="false" afterPath="$PROJECT_DIR$/save_11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_14.php" beforeDir="false" afterPath="$PROJECT_DIR$/save_14.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_10.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_13.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_13.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_7.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +212,14 @@
       <workItem from="1642772853197" duration="1330000" />
       <workItem from="1642883210402" duration="3416000" />
       <workItem from="1643307954910" duration="2230000" />
-      <workItem from="1643388692489" duration="12914000" />
+      <workItem from="1643388692489" duration="13920000" />
+      <workItem from="1643801182576" duration="6953000" />
+      <workItem from="1644402823281" duration="5551000" />
+      <workItem from="1644435167390" duration="4276000" />
+      <workItem from="1644562563635" duration="6032000" />
+      <workItem from="1644920424921" duration="2366000" />
+      <workItem from="1644923080896" duration="1914000" />
+      <workItem from="1645004913190" duration="8523000" />
     </task>
     <task id="LOCAL-00001" summary="Exercise 1">
       <created>1642167350682</created>
@@ -256,7 +389,42 @@
       <option name="project" value="LOCAL" />
       <updated>1643400968219</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exercise 13">
+      <created>1643405401151</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643405401151</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Exercise 13">
+      <created>1643808346350</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1643808346350</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Exercise 15_1">
+      <created>1644922990646</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644922990646</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Exercise 15_1">
+      <created>1644923112437</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644923112437</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Exercise 15_1">
+      <created>1645007677568</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645007677568</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +469,7 @@
     <MESSAGE value="Exercise 11" />
     <MESSAGE value="Exercise 12" />
     <MESSAGE value="Exercise 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 13" />
+    <MESSAGE value="Exercise 15_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 15_1" />
   </component>
 </project>
