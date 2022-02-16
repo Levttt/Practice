@@ -83,7 +83,6 @@ $result = $query->fetchAll();
         </div>
     </div>
 
-
 </main>
 
 
