@@ -3,12 +3,15 @@ $pdo = new PDO('mysql:host=localhost;dbname=users;', 'root', 'root');
 
 $id = $_GET['id'];
 
+
 $sql = 'SELECT * FROM users.images WHERE id = :id LIMIT 1';
 $query = $pdo->prepare($sql);
 $query->execute(['id'=>$id]);
 $record = $query->fetch();
 
-$imgUrl = __DIR__ . 'img/demo/gallery/' . $record['img_name'];
+$imgUrl = 'img/demo/gallery/' . $record['img_name'];
+
+echo $imgUrl;
 if(file_exists($imgUrl)){
     unlink($imgUrl);
 
